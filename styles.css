@@ -1,17 +1,73 @@
-body{
-    background-color: #9edbd6;
-    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
-}
-h1{
-    color: rgb(46, 46, 162);
-}
-h2{
+body {
+    background-color: #dadada;
+  }
+  
+  h1 {
     color: #46484c;
-}
-b{
+    text-align: center;
+  }
+  
+  p {
     color: #8b8b8bcc;
-}
-button{
+    font-family: verdana;
+    font-size: 20px;
+  }
+  
+  button {
     color: #fff;
     background-color: #025157;
-}
+  }
+  
+  .header {
+    margin: 40px 20px 0 20px;
+    font-size: 0;
+    line-height: 45px;
+    font-family: sans-serif;
+  }
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+
+  }
+  
+  .logo {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+  }
+
+  .navbar li {
+    margin: 0 25px 0 25px;
+    display: inline;
+  }
+
+  
+  .actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+  }
+
+  .actions > * {
+    margin: 0 10px 0 10px;
+  }
+
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: 0;
+    border-radius: 5px;
+  }
