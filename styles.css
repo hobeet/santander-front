@@ -19,7 +19,7 @@ body {
   }
   
   .header {
-    margin: 40px 20px 0 20px;
+    margin: 10px 20px 0 20px;
     font-size: 0;
     line-height: 45px;
     font-family: sans-serif;
@@ -84,6 +84,16 @@ body {
     border-radius: 5px;
   }
 
+
+  .promo {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin: 100px auto;
+    align-items: center;
+    
+  }
+
  .promo h3{
    color: #025157;
    font-size: 30px;
@@ -101,19 +111,110 @@ body {
     border-radius: 5px;
   }
 
-  .promo {
-    display: flex;
-    width: 70%;
-    margin: auto;
-    margin: 100px auto;
-    align-items: center;
-    
-  }
 
   .video{
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-right: 5%;
+  }
+
+
+
+
+  .historias {
+    background-color: #a1d683;
+    padding: 3% 15%;
+    display: flex;
+    align-items: center;
+
+  }
+  .info {
+    padding-right: 50px;
+  }
+
+  .info > h2 {
+    color: #025157;
+    font-size: 40px;
+  }
+  .info > p {
+    color: #343434;
+  }
+  .info > button {
+
+    color: white;
+    background-color: #025157;
+    font-size: 20px;
+    padding: 15px 15px;
+    border-radius: 10px;
+  }
+
+  .historia {
+    background-color: white;
+
+    flex-basis: 10%;
+    border-radius: 25px;
+  }
+
+.historia > img {
+  border-radius: 20px 20px 0 0;
+  width: 300px;
+}
+
+  .historia > h4 {
+    color: #025157;
+    font-size: 18px;
+    padding: 10% 5% 5% 5%;
+    margin: 0;
+  }
+  .historia > h3 {
+    color: #343434;
+    font-size: 30px;
+    padding: 0 5% 0 5%;
+    margin: 0;
+  }
+ 
+
+  .datos {
+    display: flex;
+    align-items: center;
+    color: #828282;
+    padding: 5%;
+    margin: 0%;
+    height: 30px;
+  }
+  .datos > img {
+    width: 10%;
+    padding-right: 10px;
+  }
+  .datos > p {
+    font-size: 17px;
+  }
+
+  .historia-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px;
+  }
+  .historia-button > button {
+
+    color: white;
+    background-color: #025157;
+    font-size: 20px;
+    padding: 15px 40px;
+    border-radius: 10px;
+  }
+  .logo-circular {
+    position: relative;
+    top: -60px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    background-color: #f9da73;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
